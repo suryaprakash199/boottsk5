@@ -1,0 +1,61 @@
+.fabsa{
+  		padding: 10px;
+  		border-radius: 50%;
+  		background: lightgrey;
+  		font-size: 20px;
+ }
+.nav-item:hover {
+	text-decoration: underline;
+
+}
+.nav-item:active {
+	text-decoration: underline;
+
+}
+.navbar-toggler-icon{
+	transition: all .2s ease-out;
+}
+.navbar-toggler-icon:hover {
+	transform: scale(.8);
+}
+ .com {
+	
+	overflow: hidden;
+	height: 300px;
+	width: 400px;
+}
+.cc:hover{
+          transform: scale(1.04);
+          transition: all .2s ease-in;
+          filter: brightness(.5);
+
+} 
+.bb .bn .cc:hover{
+	 transform: scale(1.04);
+          transition: all .5s ease-in;
+          filter: brightness(.5);
+} 
+.bb {
+	position: relative;   
+	bottom: 60%;	
+	opacity: 0;
+	transition: all .2s ease-in;
+}
+  .com:hover .bb{
+        transform: translateY(-70%);  	    
+  		opacity: 1;
+  		transition: all .2s ease-in;
+ }
+
+.bn{
+	position: relative;
+	bottom: 60%;	
+	opacity: 0;
+	transition: all .2s ease-in;
+}
+  .com:hover .bn{
+  	transform: translateY(-70%);
+  	opacity: 1;
+    transition: all .2s ease-in;
+
+  }
